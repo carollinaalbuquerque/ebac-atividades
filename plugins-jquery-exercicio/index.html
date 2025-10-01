@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carousel com jQuery</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- jQuery Mask Plugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+<h1>As camisas novas do melhor time do brasil!</h1>
+
+<!-- Carousel -->
+<div class="carousel">
+    <div class="slide active"><img src="img/fla-bege.webp" alt="Camisa 1"></div>
+    <div class="slide"><img src="img/fla-branca.webp" alt="Camisa 2"></div>
+    <div class="slide"><img src="img/fla-classica.webp" alt="Camisa 3"></div>
+    <div class="slide"><img src="img/fla-marron.webp" alt="Camisa 3"></div>
+
+</div>
+<button id="prev">❮</button>
+<button id="next">❯</button>
+
+<!-- Formulário -->
+<form id="formulario">
+    <input type="text" name="nome" placeholder="Nome" required>
+    <input type="text" name="telefone" placeholder="Telefone" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <button type="submit">Enviar</button>
+</form>
+</body>
+</html>
